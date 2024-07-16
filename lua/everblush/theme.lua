@@ -45,7 +45,7 @@ function M.get(config)
         Include = { fg = p.color6 },
         Keyword = { fg = p.color6 },
         Label = { fg = p.color4 },
-        LineNr = { fg = p.color0, bg = background },
+        LineNr = { fg = p.color7, bg = background },
         Macro = { fg = p.color6 },
         MatchParen = { fg = p.color4, bg = background },
         ModeMsg = { fg = p.foreground, bg = background },
@@ -101,12 +101,12 @@ function M.get(config)
         Visual = { fg = p.foreground, bg = p.color0 },
         VisualNOS = { bg = background },
         WarningMsg = { fg = p.color3, bg = background },
-        Whitespace = { fg = p.color1 },
+        Whitespace = { fg = p.comment },
         WildMenu = { fg = p.color7, bg = p.color4 },
         lCursor = { fg = p.foreground, bg = p.foreground },
 
         -- bufferline.nvim: https://github.com/akinsho/bufferline.nvim
-        BufferLineFill = { fg = p.background, bg = background },
+        BufferLineFill = { fg = p.background, bg = "#0B0E10" },
         BufferLineIndicatorSelected = { fg = p.color2 },
 
         -- Diagnostic
