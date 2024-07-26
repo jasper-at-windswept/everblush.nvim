@@ -19,7 +19,7 @@ local palette = {
     contrast = '#161d1f',
     background = '#141b1e',
     foreground = '#dadada',
-    cursorline = '#2c3333',
+    cursorline = '#1b2428',
     none = 'NONE',
 }
 
