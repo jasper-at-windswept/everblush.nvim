@@ -13,7 +13,7 @@ function M.get(config)
         Boolean = { fg = p.color5 },
         Character = { fg = p.color12 },
         ColorColumn = { bg = background },
-        Comment = { fg = p.comment, italic = true },
+        Comment = { fg = p.color0, italic = true },
         Conceal = { fg = p.color4, bg = background },
         Conditional = { fg = p.color6 },
         Constant = { fg = p.color5 },
