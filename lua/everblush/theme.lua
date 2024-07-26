@@ -20,7 +20,7 @@ function M.get(config)
         Cursor = { fg = p.foreground, bg = p.foreground },
         CursorColumn = { bg = background },
         CursorIM = { fg = p.foreground, bg = p.foreground },
-        CursorLine = { bg = p.color0 },
+        CursorLine = { bg = p.cursorline },
         CursorLineNr = { fg = p.cursorline },
         Debug = { fg = p.color1 },
         Define = { fg = p.color6 },
